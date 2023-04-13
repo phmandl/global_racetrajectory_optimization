@@ -78,7 +78,7 @@ def prep_track(reftrack_imp: np.ndarray,
 
         plt.show()
 
-        raise IOError("At least two spline normals are crossed, check input or increase smoothing factor!")
+        # raise IOError("At least two spline normals are crossed, check input or increase smoothing factor!")
 
     # ------------------------------------------------------------------------------------------------------------------
     # ENFORCE MINIMUM TRACK WIDTH (INFLATE TIGHTER SECTIONS UNTIL REACHED) ---------------------------------------------

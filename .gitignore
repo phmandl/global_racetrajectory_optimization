@@ -138,3 +138,6 @@ dmypy.json
 
 # repo specific
 outputs
+
+# exclude python environment
+opti_env/
